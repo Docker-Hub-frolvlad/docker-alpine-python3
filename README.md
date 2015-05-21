@@ -1,6 +1,8 @@
 Python 3.4 Docker image
 =======================
 
+[![](https://badge.imagelayers.io/frolvlad/alpine-python3:latest.svg)](https://imagelayers.io/?images=frolvlad/alpine-python3:latest 'Get your own badge on imagelayers.io')
+
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
 [Python 3.4](https://www.python.org/).
 
