@@ -1,5 +1,4 @@
-FROM alpine:3.1
+FROM alpine:3.2
 
-RUN echo "@edge http://nl.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories && \
-    apk add --update musl@edge python3@edge && \
+RUN apk add --update musl python3 && \
     rm /var/cache/apk/*
