@@ -2,11 +2,11 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/frolvlad/alpine-python3.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-python3/)
 
 
-Python 3.5 Docker image
+Python 3.6 Docker image
 =======================
 
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
-[Python 3.5](https://www.python.org/).
+[Python 3.6](https://www.python.org/).
 
 Download size of this image is only:
 
