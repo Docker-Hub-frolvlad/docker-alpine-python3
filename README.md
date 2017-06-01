@@ -17,7 +17,7 @@ Usage Example
 -------------
 
 ```bash
-$ docker run --rm frolvlad/alpine-python3 python3 -c 'print("Hello World")'
+$ docker run --rm -it frolvlad/alpine-python3 python3 -c 'print("Hello World")'
 ```
 
 Once you have run this command you will get printed 'Hello World' from Python!
