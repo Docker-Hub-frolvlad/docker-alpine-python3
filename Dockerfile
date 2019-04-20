@@ -1,4 +1,5 @@
-FROM arm32v7/alpine:3.9
+FROM arm32v7/debian:stretch-slim 
+COPY qemu-arm-static /usr/bin
 
 RUN [ "cross-build-start" ]
 
