@@ -1,7 +1,7 @@
 FROM arm32v7/debian:stretch-slim 
 COPY qemu-arm-static /usr/bin
 
-RUN [ "cross-build-start" ]
+#RUN [ "cross-build-start" ]
 
 RUN apk add --no-cache python3 && \
     python3 -m ensurepip && \
@@ -11,5 +11,5 @@ RUN apk add --no-cache python3 && \
     if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi && \
     rm -r /root/.cache
 
-RUN [ "cross-build-end" ]
+#RUN [ "cross-build-end" ]
 
