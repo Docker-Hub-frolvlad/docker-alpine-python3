@@ -2,15 +2,13 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/frolvlad/alpine-python3.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-python3/)
 
 
-Python 3.8 Docker image
+Python 3.9 Docker image
 =======================
 
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
 [Python 3.8](https://www.python.org/).
 
-Download size of this image is only:
-
-[![](https://images.microbadger.com/badges/image/frolvlad/alpine-python3.svg)](http://microbadger.com/images/frolvlad/alpine-python3 "Get your own image badge on microbadger.com")
+This image is only 63MB on disk.
 
 
 Usage Example
