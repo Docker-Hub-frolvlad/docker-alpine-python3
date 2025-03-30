@@ -2,7 +2,7 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/frolvlad/alpine-python3.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-python3/)
 
 
-Python 3.11 Docker image
+Python 3.12 Docker image
 ========================
 
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
